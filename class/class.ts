@@ -1,4 +1,4 @@
-class Animal{
+ class Animal{
     health:number;
     speed:number;
     name:string;

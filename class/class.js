@@ -2,7 +2,7 @@ var Animal = /** @class */ (function () {
     function Animal() {
     }
     Animal.prototype.run = function () {
-        console.log("\"hakuna matata\" health " + this.health + " and speed " + this.speed + " and name " + this.name);
+        console.log("\"hakuna matata\" health ".concat(this.health, " and speed ").concat(this.speed, " and name ").concat(this.name));
     };
     return Animal;
 }());
